@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.triBox{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    border: solid 2px blue;
+    border-radius: 10px;
+}
+
+
+ol{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+}
+
+.Yang{
+    background-color: black;
+    height: 20px;
+    width: 80px;
+    margin: 10px;
+    
+}
+
+.Yin{
+    background-color: black;
+    height: 20px;
+    width: 35px;
+    margin: 5px;
+}
+.Box{
+    display: flex;
+      
+}
+.grade{
+    margin: 4px;
+    align-items: center;
+}
+
+#line{
+   margin: 5px;
+}
+
+#Gen .grade{
+    margin-top: 10px;
+}
+
+#Xun .Yang {
+    margin-left: 5px;    
+}
+#Xun .Box{
+    margin-top: -5px;
+}
+#Li .Yang{
+    margin-left: 5px;
+    margin-bottom:0px ;
+}
+#Li .Box{
+    margin-top: 5px;
+}
+#line3{
+    margin-top: 5px;
+}
+#Dui .Yang{
+    margin-left: 5px;
+    margin-top: 5px;
+}
