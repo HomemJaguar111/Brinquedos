@@ -2,6 +2,8 @@ body{
     background-color: black;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:Center;
+    
 }
 
 .triBox{
@@ -12,6 +14,7 @@ body{
     padding: 10px;
     border: solid 2px blue;
     border-radius: 10px;
+    
 }
 
 
@@ -21,6 +24,8 @@ ol{
     flex-direction: row;
     margin: 10px;
     text-align: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .Yang{
@@ -73,4 +78,47 @@ ol{
 #Dui .Yang{
     margin-left: 5px;
     margin-top: 5px;
+}
+.Box8{
+    margin: 5px auto;
+    border-radius: 50%;
+    background-color: rgb(123, 13, 225);
+    height: 850px;
+    width: 850px;
+    align-self: center ;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20% ;
+}
+.qian{
+    grid-column:3;
+    grid-row:1;
+}
+.kun{
+    grid-column:3;
+    grid-row:5;
+}
+.zhen{
+    grid-column:2;
+    grid-row:4;
+}
+.kan{
+    grid-column:5;
+    grid-row:3;
+}
+.gen{
+    grid-column:4;
+    grid-row:4;
+}
+.xun{
+    grid-column:4;
+    grid-row:2;
+}
+.li{
+    grid-column:1;
+    grid-row:3;
+}
+.dui{
+    grid-column:2;
+    grid-row:2;
 }
