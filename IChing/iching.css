@@ -85,7 +85,6 @@ ol{
     background-color: rgb(123, 13, 225);
     height: 850px;
     width: 850px;
-    align-self: center ;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20% ;
@@ -121,4 +120,60 @@ ol{
 .dui{
     grid-column:2;
     grid-row:2;
+}
+#TaoSymbol{
+    
+    margin-left: 325px;
+    margin-top: 700px;
+}
+.branco{
+    background-color: white;
+    height: 100px;
+    width:200px;
+    border-radius: 150px 150px 0px 0px;
+
+}
+.preto{
+    background-color: black;
+    height:100px;
+    width: 200px;
+    border-radius: 0px 0px 150px 150px;
+
+}
+.branco1{
+    background-color: white;
+    height: 50px;
+    width:100px;
+    border-radius: 0px 0px 100px 100px;
+    
+
+
+}
+.preto1{
+    background-color: black;
+    height:50px ;
+    width: 100px;
+    border-radius: 100px 100px 0px 0px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.bolabranca{ 
+    position: absolute;  
+    margin-top: 75px; 
+    margin-left: 125px;
+    background-color: white;
+    height:50px ;
+    width: 50px;
+    border-radius: 100px;
+}
+.bolapreta{ 
+    position:absolute;
+    margin-left:25px;
+    margin-top: -75px ;
+    background-color: black;
+    height:50px ;
+    width: 50px;
+    border-radius: 100px;
 }
