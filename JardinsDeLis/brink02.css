@@ -1,0 +1,281 @@
+body{
+    
+    background-color: rgb(5, 5, 56);
+    color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+
+}
+.calculadora{
+    display: flex;
+    flex-direction:column ;
+    background-color: aliceblue;
+    color: blue;
+    width: 250px;
+    height: 230px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px ;
+    border: solid red 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+.calculadora p {
+    text-align: center;
+}
+
+#_jardimchakana{
+    height: 650px;
+    width: 1280px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px ;
+    padding: 20px 20xauto;
+    border: 20px 20px auto
+    ;
+    align-items: center;
+}
+
+.chakana {
+    background-color: rgb(162, 175, 174);
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    
+}
+
+.list7{
+    
+    color: black;
+    list-style-type: none;
+}
+
+#_list7{
+    height: 600px;
+    display: flex;
+    
+}
+
+
+    
+
+
+#_jardim{
+   background-color: yellow;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px auto;
+    padding: 10px;
+
+}
+.jardim{
+    display: flex;
+    
+    height: 72px;
+    width: 500px;
+    background-color: blueviolet;
+    margin: 2px;
+    align-items: center;
+    color: white;
+     
+}
+#_chakra{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(102, 255, 0);
+    width: 75px;
+    height: 530px;
+    margin: 10px auto;
+    padding: 10px;
+    margin-top: 20px;
+    
+    align-items: center;
+}
+
+.chakra{
+    height: 72px;
+    width: 72px;
+    margin: 3px;
+    background-color: blueviolet;
+    border-radius:50px  ;
+
+}
+
+
+#_chakana {
+    border-radius: 15px;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(13, 40, 63);
+    color: rgb(225, 0, 255);
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+    grid-template-rows: 14% 14% 14% 14% 14% 14% 14% ;
+    
+    align-items: center;
+    margin: auto;
+    
+
+}
+.jdbt{
+    background-color: aqua;
+    height:50px ;
+    width: 50px;
+    margin: 10px;
+    
+}
+
+#_destino{
+    grid-column-start:4 ;
+    grid-row-start:4 ;    
+}
+
+#_guia{
+    grid-column-start:4 ;
+    grid-row-start: 3;    
+}
+
+#_oculto{
+    grid-column-start:4 ;
+    grid-row-start: 5;
+}
+
+#_antipoda{
+    grid-column-start:3 ;
+    grid-row-start: 4; 
+}
+
+#_analogo{
+    grid-column-start:5 ;
+    grid-row-start: 4;
+}
+
+#_jd1{
+    grid-column-start:5 ;
+    grid-row-start: 3;
+}
+
+#_jd2{
+    grid-column-start:3 ;
+    grid-row-start: 3;
+}
+
+#_jd3{
+    grid-column-start:5 ;
+    grid-row-start: 5;
+}
+
+#_jd4{
+    grid-column-start:3 ;
+    grid-row-start: 5;
+}
+
+#_jd5_1{
+    grid-column-start:2 ;
+    grid-row-start: 4;
+}
+
+#_jd5_2{
+    grid-column-start:6 ;
+    grid-row-start:4;
+}
+
+#_jd6_1{
+    grid-column-start:4 ;
+    grid-row-start: 2;
+}
+
+#_jd6_2{
+    grid-column-start:4 ;
+    grid-row-start: 6;
+}
+
+#_jd7_1{
+    grid-column-start:4 ;
+    grid-row-start: 1;
+}
+
+#_jd7_2{
+    grid-column-start:5 ;
+    grid-row-start: 2;
+}
+
+#_jd7_3{
+    grid-column-start:6 ;
+    grid-row-start: 3;
+}
+
+#_jd7_4{
+    grid-column-start:7 ;
+    grid-row-start: 4;
+}
+
+#_jd7_5{
+    grid-column-start:6 ;
+    grid-row-start: 5;
+}
+
+#_jd7_6{
+    grid-column-start:5 ;
+    grid-row-start: 6;
+}
+
+#_jd7_7{
+    grid-column-start:4 ;
+    grid-row-start: 7;
+}
+
+#_jd7_8{
+    grid-column-start:3 ;
+    grid-row-start: 6;
+}
+
+#_jd7_9{
+    grid-column-start:2 ;
+    grid-row-start: 5;
+}
+
+#_jd7_10{
+    grid-column-start:1 ;
+    grid-row-start: 4;
+}
+
+#_jd7_11{
+    grid-column-start:2 ;
+    grid-row-start:3;
+}
+
+#_jd7_12{
+    grid-column-start:3 ;
+    grid-row-start: 2;
+}
+
+.tzolkinbox{
+   
+    margin: 100px;
+    
+    background-color: aqua;
+    height:1000px;
+    width: 500px;
+}
+.kinbox{
+    background-color: black;
+    height :20px ;
+    width: 20px;
+    margin: 2px;
+   
+}
+.gridzolkin{
+    list-style: none;
+    display: grid;
+    grid-template-columns:7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69% 7.69%;
+    grid-template-rows:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+}
+

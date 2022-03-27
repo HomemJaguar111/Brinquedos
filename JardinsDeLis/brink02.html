@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tzolkin</title>
+    <link rel="stylesheet" href="brink02.css">
+</head>
+<body>
+    <header>    
+             <div class="calculadora">        
+                 <div>
+                    <h2>Calculadora Kin</h2>                
+                        <p> Dia <input type="number"    id="_dia"></p>
+                        <p>   Mês <input type="number" id="_mes"></p>
+                        <p>    Ano <input type="number" id="_ano"></p>
+
+                        <p>   <input type="button" value="Verificar" onclick="verificar()" id="botaoverificar">
+                        </p>
+                 </div>        
+   
+                 <div id="Kin">
+                     Aqui aparece o Kin
+                 </div >
+             </div>
+    </header>
+
+   <div id="_jardimchakana">                     
+   
+       <div id="_chakana">
+   
+            <div class="chakana" id="_destino"><p>Kin Destino</p></div>
+            <div class="chakana" id="_guia"> <p>Kin Guia</p></div>
+            <div class="chakana" id="_analogo"><p>Kin Análogo</p> </div>
+            <div class="chakana" id="_antipoda"><p>Kin Antípoda</p></div>
+            <div class="chakana"  id="_oculto"><p>Kin Oculto</p></div>  
+
+            <div class="chakana" id="_jd1">JD 1</div>
+            <div class="chakana" id="_jd2">JD 2</div>
+            <div class="chakana" id="_jd3">JD 3</div>
+            <div class="chakana" id="_jd4">JD 4</div> 
+                      
+            <div class="chakana"   id="_jd5_1">JD 5.1</div>
+            <div class="chakana"  id="_jd5_2">JD 5.2</div>     
+
+            <div class="chakana" id="_jd6_1">JD 6.1</div>
+            <div class="chakana" id="_jd6_2">JD 6.2</div>
+
+            <div class="chakana" id="_jd7_1">JD 7.1</div>
+            <div class="chakana" id="_jd7_2">JD 7.2</div>
+            <div class="chakana" id="_jd7_3"> JD 7.3</div>
+            <div class="chakana" id="_jd7_4">JD 7.4</div>
+            <div class="chakana" id="_jd7_5">JD 7.5</div>
+            <div class="chakana" id="_jd7_6">JD 7.6</div>
+            <div class="chakana" id="_jd7_7">JD 7.7</div>
+            <div class="chakana" id="_jd7_8">JD 7.8</div>
+            <div class="chakana" id="_jd7_9">JD 7.9</div>
+            <div class="chakana" id="_jd7_10"> JD 7.10</div>
+            <div class="chakana" id="_jd7_11">JD 7.11</div>
+            <div class="chakana" id="_jd7_12">JD 7.12</div>                
+
+        </div>
+
+        <div id="_list7">
+            
+            <ul class="list7" id="_chakra">
+
+             <li class="chakra">Chakra 1</li>
+             <li class="chakra">Chakra 2</li>
+             <li class="chakra">Chakra 3</li>
+             <li class="chakra">Chakra 4</li>
+             <li class="chakra">Chakra 5</li>
+             <li class="chakra">Chakra 6</li>
+             <li class="chakra">Chakra 7</li>
+        
+            </ul>
+
+             <ul class="list7" id="_jardim">
+                <li class="jardim"> <div class="jdbt"></div>+ <div class="jdbt"></div> Jardim 1 = Kin Guia + Kin análogo <p></p></li>
+                <li class="jardim"><div class="jdbt"></div>+<div class="jdbt"></div> Jardim 2 = Kin Guia + Kin Antípoda</li>
+                <li class="jardim"><div class="jdbt"></div>+<div class="jdbt"></div> Jardim 3 = Kin Análogo + Kin Oculto</li>
+                <li class="jardim"><div class="jdbt"></div>+<div class="jdbt"></div> Jardim 4 = Kin Antípoda + Kin Oculto </li>
+                <li class="jardim"><div class="jdbt"></div>+<div class="jdbt"></div> Jardim 5 = Kin Antípoda + Kin Análogo</li>
+                <li class="jardim"><div class="jdbt"></div>+<div class="jdbt"></div> Jardim 6 = Kin Guia + Kiin Oculto</li>
+                <li class="jardim"><div class="jdbt"></div>+<div class="jdbt"></div> JD 7 = JD1 + JD2 + JD3 + JD4 + JD5 + JD6 <div class="jdbt"></div> </li>
+             </ul>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="tzolkinbox">
+        <ol class="gridzolkin" >
+        <li> <div class="kinbox" id="k001"></div></li>
+        <li> <div class="kinbox" id="k002"></div></li>
+        <li> <div class="kinbox" id="k003"></div></li>
+        <li> <div class="kinbox" id="k004"></div></li>
+        <li> <div class="kinbox" id="k005"></div></li>
+        <li> <div class="kinbox" id="k006"></div></li>
+        <li> <div class="kinbox" id="k007"></div></li>
+        <li> <div class="kinbox" id="k008"></div></li>
+        <li> <div class="kinbox" id="k009"></div></li>
+        <li> <div class="kinbox" id="k010"></div></li>
+        <li> <div class="kinbox" id="k011"></div></li>
+        <li> <div class="kinbox" id="k012"></div></li>
+        <li> <div class="kinbox" id="k013"></div></li>
+        <li> <div class="kinbox" id="k014"></div></li>
+        <li> <div class="kinbox" id="k015"></div></li>
+        <li> <div class="kinbox" id="k016"></div></li>
+        <li> <div class="kinbox" id="k017"></div></li>
+        <li> <div class="kinbox" id="k018"></div></li>
+        <li> <div class="kinbox" id="k019"></div></li>
+        <li> <div class="kinbox" id="k020"></div></li>
+        <li> <div class="kinbox" id="k021"></div></li>
+        <li> <div class="kinbox" id="k022"></div></li>
+        <li> <div class="kinbox" id="k023"></div></li>
+        <li> <div class="kinbox" id="k024"></div></li>
+        <li> <div class="kinbox" id="k025"></div></li>
+        <li> <div class="kinbox" id="k026"></div></li>
+        <li> <div class="kinbox" id="k027"></div></li>
+        <li> <div class="kinbox" id="k028"></div></li>
+        <li> <div class="kinbox" id="k029"></div></li>
+        <li> <div class="kinbox" id="k030"></div></li>
+        <li> <div class="kinbox" id="k031"></div></li>
+        <li> <div class="kinbox" id="k032"></div></li>
+        <li> <div class="kinbox" id="k033"></div></li>
+        <li> <div class="kinbox" id="k034"></div></li>
+        <li> <div class="kinbox" id="k035"></div></li>
+        <li> <div class="kinbox" id="k036"></div></li>
+        <li> <div class="kinbox" id="k037"></div></li>
+        <li> <div class="kinbox" id="k038"></div></li>
+        <li> <div class="kinbox" id="k039"></div></li>
+        <li> <div class="kinbox" id="k040"></div></li>
+        <li> <div class="kinbox" id="k041"></div></li>
+        <li> <div class="kinbox" id="k042"></div></li>
+        <li> <div class="kinbox" id="k043"></div></li>
+        <li> <div class="kinbox" id="k044"></div></li>
+        <li> <div class="kinbox" id="k045"></div></li>
+        <li> <div class="kinbox" id="k046"></div></li>
+        <li> <div class="kinbox" id="k047"></div></li>
+        <li> <div class="kinbox" id="k048"></div></li>
+        <li> <div class="kinbox" id="k049"></div></li>
+        <li> <div class="kinbox" id="k050"></div></li>
+        <li> <div class="kinbox" id="k051"></div></li>
+        <li> <div class="kinbox" id="k052"></div></li>
+        <li> <div class="kinbox" id="k053"></div></li>
+        <li> <div class="kinbox" id="k054"></div></li>
+        <li> <div class="kinbox" id="k055"></div></li>
+        <li> <div class="kinbox" id="k056"></div></li>
+        <li> <div class="kinbox" id="k057"></div></li>
+        <li> <div class="kinbox" id="k058"></div></li>
+        <li> <div class="kinbox" id="k059"></div></li>
+        <li> <div class="kinbox" id="k060"></div></li>
+        <li> <div class="kinbox" id=""> </div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        <li> <div class="kinbox" id=""></div></li>
+        
+        
+        
+      
+        </ol>
+
+    </div>
+
+
+    <script src="brink02.js"></script>
+</body>
+</html>
